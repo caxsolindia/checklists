@@ -88,57 +88,57 @@ Medium Priority
 
 - [ ] Ensure CPU request is set for Kubernetes workloads.
 
-[ ] Ensure that the admission control plugin PodSecurityPolicy is set.
+- [ ] Ensure that the admission control plugin PodSecurityPolicy is set.
 
-[ ] Minimize the admission of containers wishing to share the host network namespace.
+- [ ] Minimize the admission of containers wishing to share the host network namespace.
 
-[ ] Ensure that the admission control plugin NamespaceLifecycle is set.
+- [ ] Ensure that the admission control plugin NamespaceLifecycle is set.
 
-[ ] Ensure that the --request-timeout argument is set as appropriate.
+- [ ] Ensure that the --request-timeout argument is set as appropriate.
 
-[ ] Ensure that the --service-account-private-key-file argument is set as appropriate.
+- [ ] Ensure that the --service-account-private-key-file argument is set as appropriate.
 
-[ ] Ensure that a unique Certificate Authority is used for etcd.
+- [ ] Ensure that a unique Certificate Authority is used for etcd.
 
-[ ] Ensure that the --token-auth-file parameter is not set.
+- [ ] Ensure that the --token-auth-file parameter is not set.
 
-[ ] Ensure that the --kubelet-https argument is set to true.
+- [ ] Ensure that the --kubelet-https argument is set to true.
 
-[ ] Ensure that the --authorization-mode argument includes Node.
+- [ ] Ensure that the --authorization-mode argument includes Node.
 
-[ ] Ensure that the --profiling argument is set to false.
+- [ ] Ensure that the --profiling argument is set to false.
 
-[ ] Ensure that Service Account Tokens are only mounted where necessary.
+- [ ] Ensure that Service Account Tokens are only mounted where necessary.
 
-[ ] Ensure that a minimal audit policy is created.
+- [ ] Ensure that a minimal audit policy is created.
 
-[ ] Ensure that the seccomp profile is set to docker/default in pod definitions.
+- [ ] Ensure that the seccomp profile is set to docker/default in pod definitions.
 
-[ ] Minimize the admission of containers wishing to share the host IPC namespace.
+- [ ] Minimize the admission of containers wishing to share the host IPC namespace.
 
-[ ] Ensure that Anonymous Auth is not enabled.
+- [ ] Ensure that Anonymous Auth is not enabled.
 
-[ ] Minimize the admission of containers with added capabilities.
+- [ ] Minimize the admission of containers with added capabilities.
 
-[ ] Ensure that the --audit-log-path argument is set.
+- [ ] Ensure that the --audit-log-path argument is set.
 
-[ ] Ensure that the --audit-log-maxsize argument is set to 100 or as appropriate.
+- [ ] Ensure that the --audit-log-maxsize argument is set to 100 or as appropriate.
 
-[ ] Ensure that the API Server only makes use of strong cryptographic ciphers.
+- [ ] Ensure that the API Server only makes use of strong cryptographic ciphers.
 
-[ ] Ensure that the --client-cert-auth argument is set to true.
+- [ ] Ensure that the --client-cert-auth argument is set to true.
 
-[ ] Ensure that the --peer-cert-file and --peer-key-file arguments are set as appropriate.
+- [ ] Ensure that the --peer-cert-file and --peer-key-file arguments are set as appropriate.
 
-[ ] Ensure that every container image has a hash digest in all Kubernetes workloads.
+- [ ] Ensure that every container image has a hash digest in all Kubernetes workloads.
 
-[ ] Ensure AppArmor profile is not set to runtime/default in Kubernetes workload configuration.
+- [ ] Ensure AppArmor profile is not set to runtime/default in Kubernetes workload configuration.
 
-[ ] Ensure 'procMount' is set to default in all Kubernetes workloads.
+- [ ] Ensure 'procMount' is set to default in all Kubernetes workloads.
 
-[ ] Ensure containers run with a high UID (usually > 1000) to avoid host conflict.
+- [ ] Ensure containers run with a high UID (usually > 1000) to avoid host conflict.
 
-[ ] Ensure only allowed volume types are mounted for all Kubernetes workloads.
+- [ ] Ensure only allowed volume types are mounted for all Kubernetes workloads.
 
 [ ] Ensure that the --kubelet-client-certificate and --kubelet-client-key arguments are set as appropriate.
 
