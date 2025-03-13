@@ -1,7 +1,6 @@
 # Kubernetes Security and Compliance Checklist
 This checklist ensures best practices for Kubernetes security and compliance across different resources.
 
-## 1. **Infrastructure Security**
 ### kubernetes_service
  - [ ] HIGH - Ensure that the --secure-port argument is not set to 0.
  - [ ] MEDIUM - Ensure that the Tiller Service (Helm v2) is not deployed for Kubernetes service.
