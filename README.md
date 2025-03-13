@@ -21,7 +21,7 @@ This checklist ensures best practices for Kubernetes security and compliance acr
  - [ ] MEDIUM - Ensure HTTPS is enabled on Kubernetes Ingress resource.
 
 
-=========================================================================================
+=======================================================================
 
 ### Kubernetes Pod Security
 #### High Priority
