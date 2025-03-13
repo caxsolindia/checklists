@@ -21,7 +21,7 @@ This checklist ensures best practices for Kubernetes security and compliance acr
  - [ ] MEDIUM - Ensure HTTPS is enabled on Kubernetes Ingress resource.
 
 
-==============================================================================================================
+===============================================================================================
 
 ### Kubernetes Pod Security
 #### High Priority
@@ -50,43 +50,43 @@ This checklist ensures best practices for Kubernetes security and compliance acr
 
 Medium Priority
 
-[ ] Ensure kube-controller-manager is not vulnerable to CVE-2020-8555.
+- [ ] Ensure kube-controller-manager is not vulnerable to CVE-2020-8555.
 
-[ ] Ensure that the admission control plugin AlwaysPullImages is set.
+- [ ] Ensure that the admission control plugin AlwaysPullImages is set.
 
-[ ] Ensure that the admission control plugin NodeRestriction is set.
+- [ ] Ensure that the admission control plugin NodeRestriction is set.
 
-[ ] Ensure that the --audit-log-maxage argument is set to 30 or as appropriate.
+- [ ] Ensure that the --audit-log-maxage argument is set to 30 or as appropriate.
 
-[ ] Ensure that the --terminated-pod-gc-threshold argument is set as appropriate.
+- [ ] Ensure that the --terminated-pod-gc-threshold argument is set as appropriate.
 
-[ ] Ensure that the --root-ca-file argument is set as appropriate.
+- [ ] Ensure that the --root-ca-file argument is set as appropriate.
 
-[ ] Ensure that the Tiller Service (Helm v2) is not deployed for Kubernetes workloads.
+- [ ] Ensure that the Tiller Service (Helm v2) is not deployed for Kubernetes workloads.
 
-[ ] Ensure kernel and system level calls are not configured in all Kubernetes workloads.
+- [ ] Ensure kernel and system level calls are not configured in all Kubernetes workloads.
 
-[ ] Ensure 'readOnlyRootFileSystem' is set to true in Kubernetes workload configuration.
+- [ ] Ensure 'readOnlyRootFileSystem' is set to true in Kubernetes workload configuration.
 
-[ ] Ensure that the --basic-auth-file argument is not set.
+- [ ] Ensure that the --basic-auth-file argument is not set.
 
-[ ] Ensure that the --kubelet-certificate-authority argument is set as appropriate.
+- [ ] Ensure that the --kubelet-certificate-authority argument is set as appropriate.
 
-[ ] Ensure that the --service-account-key-file argument is set as appropriate.
+- [ ] Ensure that the --service-account-key-file argument is set as appropriate.
 
-[ ] Ensure that the --etcd-certfile and --etcd-keyfile arguments are set as appropriate.
+- [ ] Ensure that the --etcd-certfile and --etcd-keyfile arguments are set as appropriate.
 
-[ ] Ensure that the --etcd-cafile argument is set as appropriate.
+- [ ] Ensure that the --etcd-cafile argument is set as appropriate.
 
-[ ] Ensure that the admission control plugin AlwaysAdmit is not set.
+- [ ] Ensure that the admission control plugin AlwaysAdmit is not set.
 
-[ ] Ensure that the --bind-address argument is set to 127.0.0.1.
+- [ ] Ensure that the --bind-address argument is set to 127.0.0.1.
 
-[ ] Ensure that the --cert-file and --key-file arguments are set as appropriate.
+- [ ] Ensure that the --cert-file and --key-file arguments are set as appropriate.
 
-[ ] Minimize the admission of containers with the NET_RAW capability.
+- [ ] Minimize the admission of containers with the NET_RAW capability.
 
-[ ] Ensure CPU request is set for Kubernetes workloads.
+- [ ] Ensure CPU request is set for Kubernetes workloads.
 
 [ ] Ensure that the admission control plugin PodSecurityPolicy is set.
 
