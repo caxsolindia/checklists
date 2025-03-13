@@ -21,7 +21,7 @@ This checklist ensures best practices for Kubernetes security and compliance acr
  - [ ] MEDIUM - Ensure HTTPS is enabled on Kubernetes Ingress resource.
 
 
-===============================================================================================
+=========================================================================================
 
 ### Kubernetes Pod Security
 #### High Priority
@@ -140,47 +140,47 @@ Medium Priority
 
 - [ ] Ensure only allowed volume types are mounted for all Kubernetes workloads.
 
-[ ] Ensure that the --kubelet-client-certificate and --kubelet-client-key arguments are set as appropriate.
+- [ ] Ensure that the --kubelet-client-certificate and --kubelet-client-key arguments are set as appropriate.
 
-[ ] Ensure Memory request is set for Kubernetes workloads.
+- [ ] Ensure Memory request is set for Kubernetes workloads.
 
-[ ] Ensure that the RotateKubeletServerCertificate argument is set to true.
+- [ ] Ensure that the RotateKubeletServerCertificate argument is set to true.
 
-[ ] Apply Security Context to Your Pods and Containers.
+- [ ] Apply Security Context to Your Pods and Containers.
 
-[ ] Ensure that the --authorization-mode argument includes RBAC.
+- [ ] Ensure that the --authorization-mode argument includes RBAC.
 
-[ ] Ensure that the admission control plugin EventRateLimit is set.
+- [ ] Ensure that the admission control plugin EventRateLimit is set.
 
-[ ] Ensure that the admission control plugin ServiceAccount is set.
+- [ ] Ensure that the admission control plugin ServiceAccount is set.
 
-[ ] Ensure that the --audit-log-maxbackup argument is set to 10 or as appropriate.
+- [ ] Ensure that the --audit-log-maxbackup argument is set to 10 or as appropriate.
 
-[ ] Ensure that the --service-account-lookup argument is set to true.
+- [ ] Ensure that the --service-account-lookup argument is set to true.
 
-[ ] Ensure that the --encryption-provider-config argument is set as appropriate.
+- [ ] Ensure that the --encryption-provider-config argument is set as appropriate.
 
-[ ] Ensure that the --auto-tls argument is not set to true.
+- [ ] Ensure that the --auto-tls argument is not set to true.
 
-[ ] Ensure that the --peer-client-cert-auth argument is set to true.
+- [ ] Ensure that the --peer-client-cert-auth argument is set to true.
 
-[ ] Ensure that the --peer-auto-tls argument is not set to true.
+- [ ] Ensure that the --peer-auto-tls argument is not set to true.
 
-[ ] Ensure Kubernetes dashboard is not deployed.
+- [ ] Ensure Kubernetes dashboard is not deployed.
 
-[ ] Ensure mounting Docker socket daemon in a container is limited.
+- [ ] Ensure mounting Docker socket daemon in a container is limited.
 
-[ ] Ensure CPU limit is set for Kubernetes workloads.
+- [ ] Ensure CPU limit is set for Kubernetes workloads.
 
-[ ] Ensure security context is applied to pods and containers with SELinux configured.
+- [ ] Ensure security context is applied to pods and containers with SELinux configured.
 
-[ ] Ensure that the --tls-cert-file and --tls-private-key-file arguments are set as appropriate.
+- [ ] Ensure that the --tls-cert-file and --tls-private-key-file arguments are set as appropriate.
 
-[ ] Ensure that a Client CA File is Configured.
+- [ ] Ensure that a Client CA File is Configured.
 
-[ ] Minimize the admission of containers wishing to share the host process ID namespace.
+- [ ] Minimize the admission of containers wishing to share the host process ID namespace.
 
-[ ] Ensure that the --authorization-mode argument is not set to AlwaysAllow.
+- [ ] Ensure that the --authorization-mode argument is not set to AlwaysAllow.
 
 Low Priority
 
